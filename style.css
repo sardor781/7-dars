@@ -1,0 +1,387 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    padding: 124px 121px;
+}
+
+nav a {
+    color: rgb(115, 115, 115);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+#icon {
+    display: none;
+}
+
+#hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero {
+    padding: 0px 121px;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn {
+    border-radius: 7px;
+    background: linear-gradient(135.87deg, rgb(185, 1, 96) 2.23%, rgb(46, 49, 146) 99.506%);
+    width: 179px;
+    height: 53px;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 58px;
+}
+
+.imgContent {
+    width: 50%;
+}
+
+.text {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+
+/* Tablet screen */
+@media (max-width:768px) {
+    header {
+        padding: 60px 50px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #icon {
+        display: block;
+    }
+
+    #hero {
+        padding: 0px 50px;
+    }
+
+    #hero1 .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content1 {
+        width: 100%;
+        margin-top: 40px;
+        border-radius: 9px;
+        box-shadow: 0 2 28 -2 #000;
+    }
+
+    #hero2 {
+        padding: 37px 50px;
+    }
+
+    #hero2 .container {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .card {
+        width: 100%;
+        height: none;
+    }
+
+    .profile-box {
+        left: 43%;
+    }
+
+    .card h2 {
+        text-align: center;
+    }
+
+    footer {
+       padding: 50px 60px;
+    }
+    footer .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    footer h6{
+        margin-top: 33px;
+    }
+
+    footer .box3{
+        display: flex;
+        gap: 10px;
+    }
+}
+
+/* Mobile screeen */
+
+@media (max-width:576px) {
+    #icon {
+        display: none;
+    }
+
+    header .container {
+        justify-content: center;
+    }
+
+    .imgContent {
+        display: none;
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: Roboto;
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 25px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text {
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-top: 53px;
+    }
+
+    #hero {
+        background-image: url(./подложка\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    footer{
+        padding: 50px 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    footer .box3{
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+}
+
+#hero1 {
+    padding: 121px 124px;
+}
+
+#hero1 h1 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+#hero1 p {
+    color: rgb(118, 118, 118);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+#hero1 .content {
+    padding: 20px;
+    border-radius: 9px;
+    width: 344px;
+    height: 414px;
+    background: rgb(255, 255, 255);
+}
+
+#hero1 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero2 {
+    padding: 121px 0px;
+    background: linear-gradient(141.88deg, rgba(212, 20, 90, 0.25) 0.926%, rgba(46, 49, 146, 0.25) 104.886%);
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    border-radius: 9px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 456px;
+    height: 187px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 100px;
+    color: rgb(142, 142, 142);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.profile-box {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+
+#hero2 .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer {
+    padding: 124px 121px;
+    width: 100%;
+}
+
+footer .container {
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box img {
+    margin-top: 30px;
+}
+
+.box h4 {
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box1 h5 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.box1 p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.box2 h6 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.box2 p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}

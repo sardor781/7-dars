@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(Rectangle\ 18.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 35px 0px rgba(212, 20, 90, 0.25);
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  border: 1px solid rgb(162, 162, 162);
+  border-radius: 9px;
+  padding: 10px 20px;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  border: 1px solid rgb(162, 162, 162);
+  border-radius: 9px;
+  padding-left: 20px;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+button {
+  color: white;
+  width: 169px;
+  height: 42px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: linear-gradient(
+    140.12deg,
+    rgb(212, 20, 90) -20.965%,
+    rgb(61, 91, 245) 102.951%
+  );
+}
+
+@media (max-width: 768px) {
+  form {
+    padding: 50px;
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  form {
+    padding: 25px;
+    width: 80%;
+  }
+}
